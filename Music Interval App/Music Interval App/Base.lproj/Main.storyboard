@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hzz-OE-Kw3">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Damascus.ttc">
+            <string>Damascus</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Piano Screen-->
+        <scene sceneID="Xy6-Ey-ACu">
+            <objects>
+                <viewController title="Piano Screen" modalTransitionStyle="flipHorizontal" id="Hzz-OE-Kw3" customClass="ViewController" customModule="Music_Interval_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UdD-Q1-PHd">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soG-GC-qjp">
+                                <rect key="frame" x="28" y="313" width="38" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Help">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DOA-Wi-ZLR" kind="show" id="Pik-wU-iYp"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="rOG-AX-nPz">
+                                <rect key="frame" x="0.0" y="117" width="667" height="141"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8o8-w5-a7z">
+                                <rect key="frame" x="271" y="305" width="125" height="42"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="125" id="bFo-d9-YoD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steps" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJV-k1-he5">
+                                <rect key="frame" x="263" y="28" width="141" height="74"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="dh1-u0-N7L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Damascus" family="Damascus" pointSize="55"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bp-Gb-IRn" userLabel="C3">
+                                <rect key="frame" x="1" y="208" width="40" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="C3:" destination="Hzz-OE-Kw3" eventType="touchUpInside" id="xVY-zP-vDR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="048-WR-utg" userLabel="Db">
+                                <rect key="frame" x="26" y="117" width="28" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Db:" destination="Hzz-OE-Kw3" eventType="touchUpInside" id="3yV-Th-8ts"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Gl-3T-IzX" userLabel="D">
+                                <rect key="frame" x="46" y="208" width="42" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="D:" destination="Hzz-OE-Kw3" eventType="touchUpInside" id="uDX-ED-KFD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k13-zq-wxM" userLabel="Eb">
+                                <rect key="frame" x="80" y="117" width="25" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="Eb:" destination="Hzz-OE-Kw3" eventType="touchUpInside" id="j1T-qV-nac"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNF-RK-5Xb" userLabel="E">
+                                <rect key="frame" x="92" y="208" width="40" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="E:" destination="Hzz-OE-Kw3" eventType="touchUpInside" id="KIE-do-un1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ctB-qF-U2S" userLabel="F">
+                                <rect key="frame" x="136" y="208" width="40" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAH-Hz-xXm" userLabel="Gb">
+                                <rect key="frame" x="158" y="117" width="25" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VS-k5-Ybh" userLabel="G">
+                                <rect key="frame" x="180" y="208" width="40" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNt-RN-Z0X" userLabel="Ab">
+                                <rect key="frame" x="208" y="118" width="29" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y6i-BN-GJ3" userLabel="A">
+                                <rect key="frame" x="225" y="208" width="40" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CQ2-k3-vS8" userLabel="Bb">
+                                <rect key="frame" x="262" y="117" width="25" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e88-d0-2xq" userLabel="B">
+                                <rect key="frame" x="270" y="208" width="40" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5k-tg-mb6" userLabel="C4">
+                                <rect key="frame" x="315" y="208" width="40" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yK3-Pn-poO" userLabel="Db4">
+                                <rect key="frame" x="339" y="117" width="26" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVs-4I-E2W" userLabel="D4">
+                                <rect key="frame" x="356" y="208" width="48" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvm-tm-efM" userLabel="Eb4">
+                                <rect key="frame" x="392" y="118" width="25" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNF-90-KHK" userLabel="E4">
+                                <rect key="frame" x="403" y="208" width="39" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fd-4l-CZb" userLabel="F4">
+                                <rect key="frame" x="444" y="208" width="46" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pC6-QP-S4g" userLabel="Gb4">
+                                <rect key="frame" x="471" y="117" width="25" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rO-Jv-3Vo" userLabel="G4">
+                                <rect key="frame" x="492" y="208" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I4Y-f0-1wp" userLabel="Ab4">
+                                <rect key="frame" x="523" y="117" width="25" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0jM-kx-Vsr" userLabel="A4">
+                                <rect key="frame" x="536" y="208" width="42" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KH6-Hn-dCI" userLabel="Bb4">
+                                <rect key="frame" x="572" y="118" width="28" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3a0-hu-wqx" userLabel="B4">
+                                <rect key="frame" x="579" y="208" width="44" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMh-fY-pO4" userLabel="C5">
+                                <rect key="frame" x="621" y="118" width="46" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71795135740000005" green="0.084057547149999995" blue="0.1254924238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rOG-AX-nPz" firstAttribute="leading" secondItem="C5G-yV-WK6" secondAttribute="leading" id="3kL-s3-jDZ"/>
+                            <constraint firstItem="C5G-yV-WK6" firstAttribute="bottom" secondItem="soG-GC-qjp" secondAttribute="bottom" constant="28" id="Bpq-C4-uk6"/>
+                            <constraint firstItem="JJV-k1-he5" firstAttribute="centerX" secondItem="UdD-Q1-PHd" secondAttribute="centerX" id="KMN-C3-LXJ"/>
+                            <constraint firstItem="C5G-yV-WK6" firstAttribute="bottom" secondItem="8o8-w5-a7z" secondAttribute="bottom" constant="28" id="LYV-5P-zJu"/>
+                            <constraint firstItem="8o8-w5-a7z" firstAttribute="centerX" secondItem="UdD-Q1-PHd" secondAttribute="centerX" id="PfX-gY-2Cl"/>
+                            <constraint firstItem="rOG-AX-nPz" firstAttribute="trailing" secondItem="C5G-yV-WK6" secondAttribute="trailing" id="ajd-o3-gsM"/>
+                            <constraint firstItem="rOG-AX-nPz" firstAttribute="centerY" secondItem="UdD-Q1-PHd" secondAttribute="centerY" id="kRI-qE-alr"/>
+                            <constraint firstItem="JJV-k1-he5" firstAttribute="top" secondItem="C5G-yV-WK6" secondAttribute="top" constant="28" id="m5a-nc-QRf"/>
+                            <constraint firstItem="soG-GC-qjp" firstAttribute="leading" secondItem="C5G-yV-WK6" secondAttribute="leading" constant="28" id="xld-mm-bif"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="C5G-yV-WK6"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdt-Xa-Yjw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2838.530734632684" y="250.40000000000001"/>
+        </scene>
+        <!--About the Developers-->
+        <scene sceneID="Oy7-eb-uBA">
+            <objects>
+                <viewController title="About the Developers" id="DOA-Wi-ZLR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u17-oq-IKw">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="professional picture" translatesAutoresizingMaskIntoConstraints="NO" id="Ti9-LH-47C">
+                                <rect key="frame" x="14" y="266" width="112" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="112" id="L9a-al-et9"/>
+                                    <constraint firstAttribute="height" constant="130" id="vhd-hk-0KX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wm1-f7-wdS">
+                                <rect key="frame" x="147" y="294" width="219" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="TbN-4v-pVC"/>
+                                    <constraint firstAttribute="width" constant="219" id="pNj-UZ-dKd"/>
+                                </constraints>
+                                <string key="text">Mehak has been in choir for 8 years, honors choir 4 years, and jazz choir for 2 years, and in a womens acapella group for 3 years.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mehak Lodhi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJK-1f-wec">
+                                <rect key="frame" x="147" y="264" width="113" height="24"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="170914_dsr_tegan_chin_014" translatesAutoresizingMaskIntoConstraints="NO" id="tA4-Na-oeh">
+                                <rect key="frame" x="14" y="438" width="112" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="129" id="EhB-Cn-1ai"/>
+                                    <constraint firstAttribute="width" constant="112" id="jbL-T8-9k9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tegan Chin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FC1-kh-rfb">
+                                <rect key="frame" x="147" y="435" width="98" height="24"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tegan has played the flute for 6 years, marched cymbals for 3 years, and was a drum major for her senior year in high school." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfr-vm-akU">
+                                <rect key="frame" x="146" y="476" width="208" height="139"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="139" id="3y8-66-6n3"/>
+                                    <constraint firstAttribute="width" constant="208" id="zgN-ky-0Dy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_7831" translatesAutoresizingMaskIntoConstraints="NO" id="Wmd-To-XVN">
+                                <rect key="frame" x="14" y="65" width="111" height="159"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="159" id="9YI-b3-Nkx"/>
+                                    <constraint firstAttribute="width" constant="111" id="nAe-Ox-mOY"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alex Rivera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wHe-xs-k2M">
+                                <rect key="frame" x="146" y="65" width="96" height="24"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqo-lE-W6s">
+                                <rect key="frame" x="146" y="90" width="515" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="122" id="RD9-xP-N91"/>
+                                </constraints>
+                                <string key="text">Alex has played piano for 12 years, trumpet for 9 years, was in choir for 3 years, and marched and played in the jazz band all of high school.</string>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWf-wL-YcQ">
+                                <rect key="frame" x="274" y="319" width="119" height="36"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Back to Menu">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71795135740000005" green="0.084057547149999995" blue="0.1254924238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="WqD-Yf-5oY" firstAttribute="bottom" secondItem="YWf-wL-YcQ" secondAttribute="bottom" constant="20" id="16I-4J-cw8"/>
+                            <constraint firstItem="FC1-kh-rfb" firstAttribute="top" secondItem="wm1-f7-wdS" secondAttribute="bottom" constant="12" id="2Dr-sM-NjU"/>
+                            <constraint firstItem="YWf-wL-YcQ" firstAttribute="centerX" secondItem="u17-oq-IKw" secondAttribute="centerX" id="4II-0O-unz"/>
+                            <constraint firstItem="WqD-Yf-5oY" firstAttribute="trailing" secondItem="uqo-lE-W6s" secondAttribute="trailing" constant="6" id="6Yq-0G-VFu"/>
+                            <constraint firstItem="Ti9-LH-47C" firstAttribute="top" secondItem="Wmd-To-XVN" secondAttribute="bottom" constant="42" id="6o6-48-taR"/>
+                            <constraint firstItem="wHe-xs-k2M" firstAttribute="leading" secondItem="Wmd-To-XVN" secondAttribute="trailing" constant="21" id="CBw-Pk-LpN"/>
+                            <constraint firstItem="tA4-Na-oeh" firstAttribute="leading" secondItem="WqD-Yf-5oY" secondAttribute="leading" constant="14" id="EqM-PE-MQ4"/>
+                            <constraint firstItem="Wmd-To-XVN" firstAttribute="top" secondItem="WqD-Yf-5oY" secondAttribute="top" constant="65" id="Igv-C6-JgV"/>
+                            <constraint firstItem="wm1-f7-wdS" firstAttribute="leading" secondItem="Ti9-LH-47C" secondAttribute="trailing" constant="21" id="Pfo-nt-lWS"/>
+                            <constraint firstItem="CJK-1f-wec" firstAttribute="top" secondItem="uqo-lE-W6s" secondAttribute="bottom" constant="52" id="UBr-ae-fZR"/>
+                            <constraint firstItem="wfr-vm-akU" firstAttribute="leading" secondItem="tA4-Na-oeh" secondAttribute="trailing" constant="21" id="W8I-Ae-uvg"/>
+                            <constraint firstItem="uqo-lE-W6s" firstAttribute="leading" secondItem="Wmd-To-XVN" secondAttribute="trailing" constant="21" id="XPw-PD-zc3"/>
+                            <constraint firstItem="wHe-xs-k2M" firstAttribute="top" secondItem="WqD-Yf-5oY" secondAttribute="top" constant="65" id="bwh-5w-mTR"/>
+                            <constraint firstItem="CJK-1f-wec" firstAttribute="leading" secondItem="Ti9-LH-47C" secondAttribute="trailing" constant="21" id="goc-4C-1or"/>
+                            <constraint firstItem="wm1-f7-wdS" firstAttribute="top" secondItem="CJK-1f-wec" secondAttribute="bottom" constant="6" id="oQX-g6-wkZ"/>
+                            <constraint firstItem="tA4-Na-oeh" firstAttribute="top" secondItem="Ti9-LH-47C" secondAttribute="bottom" constant="42" id="uVu-6k-cTW"/>
+                            <constraint firstItem="uqo-lE-W6s" firstAttribute="top" secondItem="WqD-Yf-5oY" secondAttribute="top" constant="90" id="vt7-zc-9ob"/>
+                            <constraint firstItem="Ti9-LH-47C" firstAttribute="leading" secondItem="WqD-Yf-5oY" secondAttribute="leading" constant="14" id="w8n-g7-bd5"/>
+                            <constraint firstItem="FC1-kh-rfb" firstAttribute="leading" secondItem="tA4-Na-oeh" secondAttribute="trailing" constant="21" id="wIW-2d-duT"/>
+                            <constraint firstItem="Wmd-To-XVN" firstAttribute="leading" secondItem="WqD-Yf-5oY" secondAttribute="leading" constant="14" id="wm0-G8-QhZ"/>
+                            <constraint firstItem="wfr-vm-akU" firstAttribute="top" secondItem="FC1-kh-rfb" secondAttribute="bottom" constant="5" id="zHa-po-GqV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WqD-Yf-5oY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="svM-7A-dNh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3919.1999999999998" y="223.53823088455775"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="170914_dsr_tegan_chin_014" width="3680" height="2456"/>
+        <image name="IMG_7831" width="577" height="1051"/>
+        <image name="download" width="358" height="141"/>
+        <image name="professional picture" width="1241" height="1089"/>
+    </resources>
+</document>
