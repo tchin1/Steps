@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  MusicInterval2
+//  Music Interval App
 //
-//  Created by user131306 on 2/9/18.
-//  Copyright © 2018 Maryville App Development. All rights reserved.
+//  Created by user131306 on 11/26/17.
+//  Copyright © 2017 Maryville App Development. All rights reserved.
 //
 
 import UIKit
