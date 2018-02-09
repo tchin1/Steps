@@ -15,6 +15,19 @@
 		1292F143202CEB3500F81DFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1292F142202CEB3500F81DFD /* AVFoundation.framework */; };
 		12B8CC052026292200FE7097 /* Pitches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8CC042026292200FE7097 /* Pitches.swift */; };
 		8FDE54EA202E0C5700AD131F /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE54E9202E0C5700AD131F /* Keys.swift */; };
+		8FDE54F8202E2D3C00AD131F /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54EB202E2D3B00AD131F /* E.mp3 */; };
+		8FDE54F9202E2D3C00AD131F /* Ab.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54EC202E2D3B00AD131F /* Ab.mp3 */; };
+		8FDE54FA202E2D3C00AD131F /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54ED202E2D3B00AD131F /* A.mp3 */; };
+		8FDE54FB202E2D3C00AD131F /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54EE202E2D3B00AD131F /* B.mp3 */; };
+		8FDE54FC202E2D3C00AD131F /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54EF202E2D3C00AD131F /* C3.mp3 */; };
+		8FDE54FD202E2D3C00AD131F /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54F0202E2D3C00AD131F /* F.mp3 */; };
+		8FDE54FE202E2D3C00AD131F /* C4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54F1202E2D3C00AD131F /* C4.mp3 */; };
+		8FDE54FF202E2D3C00AD131F /* Gb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54F2202E2D3C00AD131F /* Gb.mp3 */; };
+		8FDE5500202E2D3C00AD131F /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54F3202E2D3C00AD131F /* G.mp3 */; };
+		8FDE5501202E2D3C00AD131F /* Bb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54F4202E2D3C00AD131F /* Bb.mp3 */; };
+		8FDE5502202E2D3C00AD131F /* Db.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54F5202E2D3C00AD131F /* Db.mp3 */; };
+		8FDE5503202E2D3C00AD131F /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54F6202E2D3C00AD131F /* D.mp3 */; };
+		8FDE5504202E2D3C00AD131F /* Eb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8FDE54F7202E2D3C00AD131F /* Eb.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +41,19 @@
 		1292F142202CEB3500F81DFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		12B8CC042026292200FE7097 /* Pitches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitches.swift; sourceTree = "<group>"; };
 		8FDE54E9202E0C5700AD131F /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		8FDE54EB202E2D3B00AD131F /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/E.mp3"; sourceTree = "<group>"; };
+		8FDE54EC202E2D3B00AD131F /* Ab.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ab.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/Ab.mp3"; sourceTree = "<group>"; };
+		8FDE54ED202E2D3B00AD131F /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = A.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/A.mp3"; sourceTree = "<group>"; };
+		8FDE54EE202E2D3B00AD131F /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = B.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/B.mp3"; sourceTree = "<group>"; };
+		8FDE54EF202E2D3C00AD131F /* C3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C3.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/C3.mp3"; sourceTree = "<group>"; };
+		8FDE54F0202E2D3C00AD131F /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = F.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/F.mp3"; sourceTree = "<group>"; };
+		8FDE54F1202E2D3C00AD131F /* C4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C4.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/C4.mp3"; sourceTree = "<group>"; };
+		8FDE54F2202E2D3C00AD131F /* Gb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Gb.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/Gb.mp3"; sourceTree = "<group>"; };
+		8FDE54F3202E2D3C00AD131F /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = G.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/G.mp3"; sourceTree = "<group>"; };
+		8FDE54F4202E2D3C00AD131F /* Bb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Bb.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/Bb.mp3"; sourceTree = "<group>"; };
+		8FDE54F5202E2D3C00AD131F /* Db.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Db.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/Db.mp3"; sourceTree = "<group>"; };
+		8FDE54F6202E2D3C00AD131F /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = D.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/D.mp3"; sourceTree = "<group>"; };
+		8FDE54F7202E2D3C00AD131F /* Eb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Eb.mp3; path = "../../../../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/5151FE63-1A3D-4192-8885-340038C0431E/Pitch Examples/Eb.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +112,23 @@
 		BB43068920262541003056AF /* Pitches Audio */ = {
 			isa = PBXGroup;
 			children = (
+				8FDE54ED202E2D3B00AD131F /* A.mp3 */,
+				8FDE54F4202E2D3C00AD131F /* Bb.mp3 */,
+				8FDE54EE202E2D3B00AD131F /* B.mp3 */,
+				8FDE54F5202E2D3C00AD131F /* Db.mp3 */,
+				8FDE54EF202E2D3C00AD131F /* C3.mp3 */,
+				8FDE54F1202E2D3C00AD131F /* C4.mp3 */,
+				8FDE54F6202E2D3C00AD131F /* D.mp3 */,
+				8FDE54F7202E2D3C00AD131F /* Eb.mp3 */,
+				8FDE54EB202E2D3B00AD131F /* E.mp3 */,
+				8FDE54F0202E2D3C00AD131F /* F.mp3 */,
+				8FDE54F2202E2D3C00AD131F /* Gb.mp3 */,
+				8FDE54F3202E2D3C00AD131F /* G.mp3 */,
+				8FDE54EC202E2D3B00AD131F /* Ab.mp3 */,
 			);
 			path = "Pitches Audio";
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 /* End PBXGroup section */
 
@@ -149,7 +189,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FDE5501202E2D3C00AD131F /* Bb.mp3 in Resources */,
+				8FDE54FF202E2D3C00AD131F /* Gb.mp3 in Resources */,
+				8FDE54FD202E2D3C00AD131F /* F.mp3 in Resources */,
+				8FDE54FA202E2D3C00AD131F /* A.mp3 in Resources */,
+				8FDE5504202E2D3C00AD131F /* Eb.mp3 in Resources */,
+				8FDE5502202E2D3C00AD131F /* Db.mp3 in Resources */,
+				8FDE54F8202E2D3C00AD131F /* E.mp3 in Resources */,
+				8FDE5503202E2D3C00AD131F /* D.mp3 in Resources */,
+				8FDE54FC202E2D3C00AD131F /* C3.mp3 in Resources */,
 				1256E19C1FCA86AC00A02B10 /* LaunchScreen.storyboard in Resources */,
+				8FDE5500202E2D3C00AD131F /* G.mp3 in Resources */,
+				8FDE54FE202E2D3C00AD131F /* C4.mp3 in Resources */,
+				8FDE54F9202E2D3C00AD131F /* Ab.mp3 in Resources */,
+				8FDE54FB202E2D3C00AD131F /* B.mp3 in Resources */,
 				1256E1991FCA86AC00A02B10 /* Assets.xcassets in Resources */,
 				1256E1971FCA86AC00A02B10 /* Main.storyboard in Resources */,
 			);
