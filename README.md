@@ -16,6 +16,6 @@ This app will enable people to show case their ear training skills by playing a 
 This is a team project that was developed over a course of three 8-week classes. After a couple of fails and the realization that we could not complete the app in time, as a team, we decided to completely scrap the app and start over. We decided that the key function of the app was to help ear train music threapy students, so we put all of our focus just into that - creating the keyboard. Although this ended up being a very simple piano app, we accomplished and learned so much from making this app.
 
 What this app taught us:
-- importing audio
-- communication between the client and the developers
-- committing on Github
+- Importing audio
+- Communication between the client and the developers
+- Committing on Github
